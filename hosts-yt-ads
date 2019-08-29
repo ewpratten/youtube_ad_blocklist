@@ -2,8 +2,6 @@
 0.0.0.0 s.ytimg.com
 0.0.0.0 ad.youtube.com
 0.0.0.0 ads.youtube.com
-0.0.0.0 www.gstatic.com
-0.0.0.0 gstatic.com
 0.0.0.0 clients1.google.com
 0.0.0.0 dts.innovid.com
 0.0.0.0 googleads.g.doubleclick.net
@@ -28,7 +26,6 @@
 0.0.0.0 secure-ds.serving-sys.com
 0.0.0.0 securepubads.g.doubleclick.net
 0.0.0.0 s.youtube.com
-0.0.0.0 apis.google.com
 0.0.0.0 2975c.v.fwmrm.net
 0.0.0.0 static.doubleclick.net
 0.0.0.0 googleadservices.com
