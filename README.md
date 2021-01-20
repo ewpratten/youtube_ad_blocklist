@@ -1,4 +1,4 @@
-# The YouTube ads blocklist project
+# The YouTube ads blocklist project ![Publish](https://github.com/Ewpratten/youtube_ad_blocklist/workflows/Publish/badge.svg)
 
 This is an open project to maintain a list of domain names that serve YouTube ads. The [original](https://gist.github.com/Ewpratten/a25ae63a7200c02c850fede2f32453cf) project only produced a [Pi-hole](https://pi-hole.net/) blocklist, but this new version automatically generates multiple list formats.
 
