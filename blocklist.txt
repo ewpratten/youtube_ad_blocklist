@@ -1,6 +1,5 @@
 adservice.google.com
 clients1.google.com
-clients.l.google.com
 googleadapis.l.google.com
 www-google-analytics.l.google.com
 www-googletagmanager.l.google.com
