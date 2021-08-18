@@ -45,6 +45,9 @@ def main() -> int:
         entries = fp.read().split("\n")
         fp.close()
 
+    # Filter empty lines
+    entries = list(filter(None, entries))
+
     # Create the output dir
     os.makedirs("output", exist_ok=True)
 
