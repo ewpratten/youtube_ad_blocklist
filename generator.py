@@ -27,13 +27,17 @@ def generateDomainsList(block_list: List[str]) -> List[str]:
 def generateDNSMASQList(block_list: List[str]) -> List[str]:
     return [f"# {line}" for line in file_header.split("\n")]+[f"server=/{entry}/" for entry in block_list]
 
+def generateUnboundList(block_list: List[str]) -> List[str]:
+    return [f"# {line}" for line in file_header.split("\n")]+[f"local-zone: \"{entry}\" redirect\nlocal-data: \"{entry} A 127.0.0.1\"" for entry in block_list]
+
 
 # All generators
 generator_list: dict = {
     "hosts.ipv4.txt": generateIPV4Hosts,
     "hosts.ipv6.txt": generateIPV6Hosts,
-    "domains.txt":generateDomainsList,
-    "dnsmasq.txt":generateDNSMASQList
+    "domains.txt": generateDomainsList,
+    "dnsmasq.txt": generateDNSMASQList,
+    "unbound.txt": generateUnboundList
 }
 
 
