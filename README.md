@@ -10,6 +10,7 @@ The following are links to the generated blocklists:
  - [IPV6 / Pi-hole](https://ewpratten.retrylife.ca/youtube_ad_blocklist/hosts.ipv6.txt)
  - [Domains](https://ewpratten.retrylife.ca/youtube_ad_blocklist/domains.txt)
  - [DNSMASQ](https://ewpratten.retrylife.ca/youtube_ad_blocklist/dnsmasq.txt)
+ - [unbound](https://ewpratten.retrylife.ca/youtube_ad_blocklist/unbound.txt)
 
 ## Credits
 
