@@ -354,3 +354,10 @@ www.googleadservices.com
 www-google-analytics.l.google.com
 www-googletagmanager.l.google.com
 www.googletagservices.com
+r1---sn-n8v7kne6.googlevideo.com
+r1---sn-n8v7kn7r.googlevideo.com
+r7---sn-n8v7znz7.googlevideo.com
+r9---sn-n8v7knes.googlevideo.com
+r3---sn-n8v7kn7k.googlevideo.com
+r14---sn-n8v7knel.googlevideo.com
+r13---sn-n8v7znsl.googlevideo.com
