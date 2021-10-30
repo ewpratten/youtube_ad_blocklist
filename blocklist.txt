@@ -8,7 +8,6 @@ adservice.google.com
 ads.youtube.com
 ad.youtube.com
 analytic-google.com
-clients1.google.com
 doubleclick.net
 dts.innovid.com
 files.adform.net
@@ -346,8 +345,6 @@ s.innovid.com
 ssl.google-analytics.com
 static.doubleclick.net
 stats.g.doubleclick.net
-s.youtube.com
-s.ytimg.com
 tpc.googlesyndication.com
 www.analytic-google.com
 www.googleadservices.com
