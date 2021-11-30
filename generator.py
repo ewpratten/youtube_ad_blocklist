@@ -30,6 +30,9 @@ def generateDNSMASQList(block_list: List[str]) -> List[str]:
 def generateUnboundList(block_list: List[str]) -> List[str]:
     return [f"# {line}" for line in file_header.split("\n")]+[f"local-zone: \"{entry}\" redirect\nlocal-data: \"{entry} A 127.0.0.1\"" for entry in block_list]
 
+def generateAdblockList(block_list: List[str]) -> List[str]:
+    return ["[Adblock Plus 2.0]"]+[f"! {line}" for line in file_header.split("\n")]+[entry for entry in block_list]
+
 
 # All generators
 generator_list: dict = {
@@ -37,7 +40,8 @@ generator_list: dict = {
     "hosts.ipv6.txt": generateIPV6Hosts,
     "domains.txt": generateDomainsList,
     "dnsmasq.txt": generateDNSMASQList,
-    "unbound.txt": generateUnboundList
+    "unbound.txt": generateUnboundList,
+    "adblockplus.txt": generateAdblockList
 }
 
 
