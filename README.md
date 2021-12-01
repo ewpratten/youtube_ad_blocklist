@@ -6,11 +6,12 @@ This is an open project to maintain a list of domain names that serve YouTube ad
 
 The following are links to the generated blocklists:
 
- - [IPV4 / Pi-hole](https://ewpratten.retrylife.ca/youtube_ad_blocklist/hosts.ipv4.txt)
- - [IPV6 / Pi-hole](https://ewpratten.retrylife.ca/youtube_ad_blocklist/hosts.ipv6.txt)
- - [Domains](https://ewpratten.retrylife.ca/youtube_ad_blocklist/domains.txt)
- - [DNSMASQ](https://ewpratten.retrylife.ca/youtube_ad_blocklist/dnsmasq.txt)
- - [unbound](https://ewpratten.retrylife.ca/youtube_ad_blocklist/unbound.txt)
+ - [IPV4 / Pi-hole](https://ewpratten.github.io/youtube_ad_blocklist/hosts.ipv4.txt)
+ - [IPV6 / Pi-hole](https://ewpratten.github.io/youtube_ad_blocklist/hosts.ipv6.txt)
+ - [Domains](https://ewpratten.github.io/youtube_ad_blocklist/domains.txt)
+ - [DNSMASQ](https://ewpratten.github.io/youtube_ad_blocklist/dnsmasq.txt)
+ - [unbound](https://ewpratten.github.io/youtube_ad_blocklist/unbound.txt)
+ - [AdBlockPlus](https://ewpratten.github.io/youtube_ad_blocklist/adblockplus.txt)
 
 ## Credits
 
