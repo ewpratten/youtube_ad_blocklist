@@ -12,6 +12,7 @@ The following are links to the generated blocklists:
  - [DNSMASQ](https://ewpratten.github.io/youtube_ad_blocklist/dnsmasq.txt)
  - [unbound](https://ewpratten.github.io/youtube_ad_blocklist/unbound.txt)
  - [AdBlockPlus](https://ewpratten.github.io/youtube_ad_blocklist/adblockplus.txt)
+ - [FutureMind Adblock](https://ewpratten.github.io/youtube_ad_blocklist/futuremind.adblock)
 
 ## Credits
 
