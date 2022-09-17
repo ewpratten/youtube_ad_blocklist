@@ -33,6 +33,9 @@ def generateUnboundList(block_list: List[str]) -> List[str]:
 def generateAdblockList(block_list: List[str]) -> List[str]:
     return ["[Adblock Plus 2.0]"]+[f"! {line}" for line in file_header.split("\n")]+["||{}^".format(entry) for entry in block_list]
 
+def generateFutureMindList(block_list: List[str]) -> List[str]:
+    return ["# [FutureMind Adblock]"]+[f"# {line}" for line in file_header.split("\n")]+["YouTube Adservers/{}".format(entry) for entry in block_list]
+
 
 # All generators
 generator_list: dict = {
@@ -41,7 +44,8 @@ generator_list: dict = {
     "domains.txt": generateDomainsList,
     "dnsmasq.txt": generateDNSMASQList,
     "unbound.txt": generateUnboundList,
-    "adblockplus.txt": generateAdblockList
+    "adblockplus.txt": generateAdblockList,
+    "futuremind.adblock": generateFutureMindList
 }
 
 
